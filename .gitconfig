@@ -40,7 +40,7 @@
   tree = !git la --oneline
 [core]
   excludesfile = ~/.gitignore
-  editor = vim -f
+  editor = /usr/local/bin/sublime -n -w || vim -f
   autocrlf = false
   safecrlf = true
 [apply]
