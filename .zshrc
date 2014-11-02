@@ -50,3 +50,7 @@ export EDITOR='subl -w'
 export PATH=$PATH:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
 
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
+
+unalias run-help
+autoload run-help
+HELPDIR=~/zsh_help
