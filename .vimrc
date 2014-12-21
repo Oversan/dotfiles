@@ -40,8 +40,7 @@ set number
 syntax enable
 set t_Co=256
 set background=dark
-colorscheme Tomorrow-Night-Eighties
-
+colorscheme gruvbox
 set history=1000
 set undolevels=1000
 set colorcolumn=120
@@ -72,3 +71,4 @@ set noswapfile
 
 set directory=~/.vim/.tmp,~/tmp,/tmp
 set wildmenu
+set paste
