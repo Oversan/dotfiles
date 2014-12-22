@@ -23,6 +23,12 @@ Plugin 'tpope/vim-surround'
 Plugin 'godlygeek/tabular'
 Plugin 'sjl/gundo.vim'
   nnoremap <F5> :GundoToggle<CR>
+Plugin 'tpope/vim-fugitive'
+Plugin 'nathanaelkane/vim-indent-guides'
+  hi IndentGuidesOdd  ctermbg=black
+  hi IndentGuidesEven ctermbg=darkgrey
+  let g:indent_guides_start_level = 2
+  let g:indent_guides_enable_on_vim_startup = 1
 
 call vundle#end()
 
