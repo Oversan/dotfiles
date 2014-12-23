@@ -35,12 +35,12 @@ Plugin 'mattn/emmet-vim'
 call vundle#end()
 
 " There are shortcuts for lines movings
-nnoremap <C-S-j> :m .+1<CR>==
-nnoremap <C-S-k> :m .-2<CR>==
-inoremap <C-S-j> <Esc>:m .+1<CR>==gi
-inoremap <C-S-k> <Esc>:m .-2<CR>==gi
-vnoremap <C-S-j> :m '>+1<CR>gv=gv
-vnoremap <C-S-k> :m '<-2<CR>gv=gv
+nnoremap <S-j> :m .+1<CR>==
+nnoremap <S-k> :m .-2<CR>==
+inoremap <S-j> <Esc>:m .+1<CR>==gi
+inoremap <S-k> <Esc>:m .-2<CR>==gi
+vnoremap <S-j> :m '>+1<CR>gv=gv
+vnoremap <S-k> :m '<-2<CR>gv=gv
 
 filetype plugin indent on
 
