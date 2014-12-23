@@ -29,6 +29,8 @@ Plugin 'nathanaelkane/vim-indent-guides'
   hi IndentGuidesEven ctermbg=darkgrey
   let g:indent_guides_start_level = 2
   let g:indent_guides_enable_on_vim_startup = 1
+Plugin 'mattn/emmet-vim'
+  let g:user_emmet_settings = { 'indentation' : ' ' }
 
 call vundle#end()
 
