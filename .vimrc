@@ -31,6 +31,7 @@ Plugin 'nathanaelkane/vim-indent-guides'
   let g:indent_guides_enable_on_vim_startup = 1
 Plugin 'mattn/emmet-vim'
   let g:user_emmet_settings = { 'indentation' : ' ' }
+Plugin 'tomtom/tcomment_vim'
 
 call vundle#end()
 
