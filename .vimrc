@@ -14,6 +14,7 @@ Plugin 'scrooloose/nerdtree'
   map <C-h> :tabp<cr>
   let NERDTreeShowHidden=1
   let NERDTreeMouseMode=2
+  let NERDTreeIgnore = ['.idea$', '.git$']
 Plugin 'jistr/vim-nerdtree-tabs'
 Plugin 'kien/ctrlp.vim'
 Plugin 'bling/vim-airline'
@@ -32,6 +33,8 @@ Plugin 'nathanaelkane/vim-indent-guides'
 Plugin 'mattn/emmet-vim'
   let g:user_emmet_settings = { 'indentation' : ' ' }
 Plugin 'tomtom/tcomment_vim'
+Plugin 'scrooloose/syntastic'
+Plugin 'mileszs/ack.vim'
 
 call vundle#end()
 
@@ -80,4 +83,9 @@ set noswapfile
 
 set directory=~/.vim/.tmp,~/tmp,/tmp
 set wildmenu
+set wildignore=*
+set wildignore+=.ideal/**
+set wildignore+=.git
+set wildignore+=*DS_Store*
 set paste
+
