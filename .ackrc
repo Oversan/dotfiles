@@ -1,0 +1,5 @@
+--color
+
+--ignore-dir=.idea/
+--ignore-dir=.git/
+--ignore-dir=node_modules/
