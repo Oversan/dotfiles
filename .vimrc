@@ -66,7 +66,7 @@ set ignorecase
 set incsearch
 set hlsearch
 set list
-set listchars=tab:→\ ,trail:·,nbsp:_
+set listchars=tab:→\ ,trail:·
 
 set tabstop=2
 set softtabstop=2
@@ -83,9 +83,5 @@ set noswapfile
 
 set directory=~/.vim/.tmp,~/tmp,/tmp
 set wildmenu
-set wildignore=*
-set wildignore+=.ideal/**
-set wildignore+=.git
-set wildignore+=*DS_Store*
 set paste
 
