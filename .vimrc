@@ -35,6 +35,7 @@ Plugin 'mattn/emmet-vim'
 Plugin 'tomtom/tcomment_vim'
 Plugin 'scrooloose/syntastic'
 Plugin 'mileszs/ack.vim'
+Plugin 'cohama/lexima.vim'
 
 call vundle#end()
 
@@ -83,5 +84,4 @@ set noswapfile
 
 set directory=~/.vim/.tmp,~/tmp,/tmp
 set wildmenu
-set paste
-
+"set paste   // When this option is on lexima.vim doesn't work. Lexema.vim very good tool.
