@@ -24,20 +24,12 @@
   ci = commit
   di = diff
   dc = diff --cached
-  div = divergence
+  graph = log --graph
   fa = fetch --all -p
   ff = merge --ff-only
-  gn = goodness
-  gnc = goodness --cached
   h = !git head
-  head = !git l -1
-  l = log --graph --abbrev-commit --date=relative
-  la = !git l --all
   pullff = pull --ff-only
-  r = !git --no-pager l -20
-  ra = !git r --all
   st = status
-  tree = !git la --oneline
 [core]
   excludesfile = ~/.gitignore
   editor = /usr/local/bin/sublime -n -w || vim -f
