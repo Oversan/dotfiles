@@ -4,6 +4,7 @@
   "color_scheme": "Packages/Material Theme/schemes/Material-Theme.tmTheme",
   "draw_white_space": "all",
   "ensure_newline_at_eof_on_save": true,
+  "save_on_focus_lost": true,
   "ignored_packages":
   [
     "Vintage"
