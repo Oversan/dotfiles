@@ -1,0 +1,21 @@
+{
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"Alignment",
+		"BracketHighlighter",
+		"Color Highlighter",
+		"Emmet",
+		"ERB Snippets",
+		"Git",
+		"Material Theme",
+		"Package Control",
+		"Seti_UI",
+		"Seti_UX",
+		"SublimeCodeIntel",
+		"Theme - Glacier",
+		"Theme - Hero"
+	]
+}
