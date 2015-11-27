@@ -47,6 +47,9 @@ inoremap <S-k> <Esc>:m .-2<CR>==gi
 vnoremap <S-j> :m '>+1<CR>gv=gv
 vnoremap <S-k> :m '<-2<CR>gv=gv
 
+vmap <C-x> :!pbcopy<CR>
+vmap <C-c> :w !pbcopy<CR><CR>
+
 filetype plugin indent on
 
 set number
@@ -59,6 +62,7 @@ set undolevels=1000
 set colorcolumn=120
 set nostartofline
 set scrolloff=8
+set clipboard=unnamed
 
 set fileencoding=utf-8
 set encoding=utf-8 nobomb
