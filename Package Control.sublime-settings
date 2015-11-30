@@ -1,22 +1,28 @@
 {
+	"bootstrapped": true,
 	"in_process_packages":
 	[
 	],
 	"installed_packages":
 	[
-		"Align​Tab",
+		"AlignTab",
+		"Ansible",
+		"Babel",
 		"BracketHighlighter",
 		"Color Highlighter",
 		"Emmet",
 		"ERB Snippets",
 		"Git",
 		"GitGutter",
+		"Haml",
+		"Jade",
+		"JSX",
 		"Material Theme",
+		"Oceanic Next Color Scheme",
 		"Package Control",
-		"Seti_UI",
-		"Seti_UX",
+		"SCSS",
 		"SublimeCodeIntel",
-		"Theme - Glacier",
-		"Theme - Hero"
+		"SublimeLinter",
+		"SublimeLinter-contrib-eslint"
 	]
 }
