@@ -1,5 +1,6 @@
 {
   "always_show_minimap_viewport": true,
+  "bold_folder_labels": true,
   "caret_extra_width": 2,
   "color_scheme": "Packages/Material Theme/schemes/Material-Theme-Darker.tmTheme",
   "draw_white_space": "all",
@@ -15,6 +16,7 @@
   ],
   "line_padding_bottom": 3,
   "line_padding_top": 3,
+  "material_theme_accent_cyan": true,
   "overlay_scroll_bars": "enabled",
   "save_on_focus_lost": true,
   "shift_tab_unindent": true,
@@ -22,6 +24,32 @@
   "theme": "Material-Theme-Darker.sublime-theme",
   "translate_tabs_to_spaces": true,
   "trim_trailing_white_space_on_save": true,
-  "bold_folder_labels": true,
-  "material_theme_accent_cyan": true
+  "folder_exclude_patterns": [".svn", ".git", ".hg", "CVS", "node_modules"]
+  // "binary_file_patterns":
+  // [
+  //  "translations.js",
+  //  "*.min.js",
+  //  "*.min.css*",
+  //  "*.*.xml",
+  //  "*.log",
+  //  "*.jpg",
+  //  "*.jpeg",
+  //  "*.png",
+  //  "*.gif",
+  //  "*.ttf",
+  //  "*.tga",
+  //  "*.dds",
+  //  "*.ico",
+  //  "*.eot",
+  //  "*.pdf",
+  //  "*.swf",
+  //  "*.jar",
+  //  "*.zip",
+  //  "*.svg",
+  //  "*.css.map",
+  //  "*/tmp/*",
+  //  "*/node_modules/*",
+  //  "*/coverage/*",
+  //  "*/dist/*"
+  // ]
 }
