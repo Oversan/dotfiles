@@ -51,6 +51,20 @@ export PATH=$PATH:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
 
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 
+export PATH="$PATH:~/gsutil"
+
 unalias run-help
 autoload run-help
 HELPDIR=~/zsh_help
+# The next line updates PATH for the Google Cloud SDK.
+
+source '/Users/aab/google-cloud-sdk/path.zsh.inc'
+
+# The next line enables bash completion for gcloud.
+source '/Users/aab/google-cloud-sdk/completion.zsh.inc'
+alias weather='function _weather(){ curl http://wttr.in/$1 };_weather'
+
+test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
+
+# added by travis gem
+[ -f /Users/aab/.travis/travis.sh ] && source /Users/aab/.travis/travis.sh
