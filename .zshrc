@@ -65,6 +65,3 @@ source '/Users/aab/google-cloud-sdk/completion.zsh.inc'
 alias weather='function _weather(){ curl http://wttr.in/$1 };_weather'
 
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
-
-# added by travis gem
-[ -f /Users/aab/.travis/travis.sh ] && source /Users/aab/.travis/travis.sh
